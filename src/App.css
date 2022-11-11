@@ -33,6 +33,10 @@ body {
   transition: 0.3s all ease-in-out;
 }
 
+.hero-text {
+  text-shadow: 5px 0 0 black;
+}
+
 .right-arrow {
   right: 140px;
 }
@@ -43,9 +47,8 @@ body {
 }
 
 .react-horizontal-scrolling-menu--wrapper {
-  width: 100%;
+  width: 80%;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .detail-image {
@@ -64,10 +67,10 @@ body {
 }
 
 .exercise-card {
-  width: 400px;
+  width: 20.83vw;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #FF2625;
+  border-top: 0.2vw solid #FF2625;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
